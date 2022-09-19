@@ -1,0 +1,12 @@
+
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 mt-5 p-4" *ngFor="let integrante of integrantes">
+        <img src={{integrante.foto}} alt="foto" class="img-fluid w-100 h-100">
+        <h1 class="text-center">{{integrante.nombre}}</h1>
+        <h2 class="text-center">{{integrante.rol}}</h2>
+      </div>
+    </div>
+  </div>
+</div>
