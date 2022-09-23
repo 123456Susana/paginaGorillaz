@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Integrantes } from '../interfaces/integrantes';
 
 @Component({
@@ -6,7 +6,7 @@ import { Integrantes } from '../interfaces/integrantes';
   templateUrl: './integrantes.component.html',
   styleUrls: ['./integrantes.component.css']
 })
-export class IntegrantesComponent implements OnInit {
+export class IntegrantesComponent  {
 
   integrantes:Integrantes[]=[
     {"nombre":"2-D","foto":"https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/g0.jpg?alt=media&token=c88eac57-410e-4e73-9a7b-06b18a60c027","rol":"Vocalista"},
@@ -17,7 +17,5 @@ export class IntegrantesComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-  }
 
 }
