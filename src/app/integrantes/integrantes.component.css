@@ -1,0 +1,24 @@
+*{  
+    font-family: 'Cabin', sans-serif;
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+hr{
+    margin-top: 15px;
+    height: 1px;
+    color: rgb(250, 241, 241);
+}
+
+.imagen{
+    height: 100px;
+    width: 100px;
+}
+
+.p1{
+    font-size: 22px;
+}
+
+.p2{
+    font-size: 19px;
+}

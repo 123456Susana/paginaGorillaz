@@ -1,13 +1,25 @@
+<app-menu></app-menu>
 
-<div>
-  <div class="container">
-    <div class="row">
-      <h1 class="text-center my-5">INTEGRANTES</h1>
-      <div class="col-12 col-md-3 mt-5 p-4" *ngFor="let integrante of integrantes">
-        <img src={{integrante.foto}} alt="foto" class="img-fluid w-100 h-100">
-        <h1 class="text-center">{{integrante.nombre}}</h1>
-        <h2 class="text-center">{{integrante.rol}}</h2>
+<section class="body ">
+  <div class="row row-cols-1 row-cols-md-2 g-4 mx-5 " >
+    <div class="row g-0 my-2" *ngFor="let integrante of integrantes">
+      <hr>
+      <div class="col-md-4">
+        <img src={{integrante.foto}}  class="img-fluid rounded-start my-3" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body my-2 ">
+          <h3 class="card-title mx-4">{{integrante.nombre}}</h3> 
+          <p class="card-text mx-4 p1">{{integrante.rol}}</p>
+          <p class="card-text mx-4 p2">{{integrante.descripcion}}</p>
+        </div>
       </div>
     </div>
+    <hr><hr>
   </div>
-</div>
+</section>
+
+
+
+
+<app-footer></app-footer>
