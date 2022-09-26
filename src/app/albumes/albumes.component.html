@@ -1,13 +1,17 @@
-<div>
+<app-menu></app-menu>
+<section>
   <div class="container">
     <div class="row">
-      <h1 class="text-center my-5">ALBUMES</h1>
-      <div class="col-12 col-md-3 mt-5 p-4" *ngFor="let respuestaDeServicios of respuestaDeServicios ">
-        <img src={{respuestaDeServicios.imagenes}} alt="foto" class="img-fluid w-100">
-        <h1 class="text-center">{{respuestaDeServicios.nombre}}</h1>
-        <h2 class="text-center">Numero de personas: {{respuestaDeServicios.numeroPersonas}}</h2>
-        <h3 class="text-center">Valor noche: {{respuestaDeServicios.valorNoche}}</h3>
+      <div class="col-12 col-md-3 mt-5 p-4" *ngFor="let canciones of canciones ">
+        <img src={{canciones.album.images[1].url}} alt="foto" class="img-fluid w-100">
+        <audio src="{{canciones.preview_url}}" controls class="my-3"></audio>
+        <h5 class="text-center">{{canciones.name}}</h5>
+        <h4 class="text-center">Popularidad: {{canciones.popularity}}</h4>
+
       </div>
     </div>
   </div>
-</div>
+</section>
+
+
+<app-footer></app-footer>
