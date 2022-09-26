@@ -19,4 +19,14 @@
   -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
 
+.li2{
+  text-align: end;
+}
 
+.imagenCreador{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 235px;
+  height: 290px;
+}
