@@ -2,7 +2,7 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-3 mt-5 p-4" *ngFor="let canciones of canciones ">
+      <div class="col-12 col-md-4 mt-5 p-4" *ngFor="let canciones of canciones ">
         <img src={{canciones.album.images[1].url}} alt="foto" class="img-fluid w-100">
         <audio src="{{canciones.preview_url}}" controls class="my-3"></audio>
         <h5 class="text-center">{{canciones.name}}</h5>

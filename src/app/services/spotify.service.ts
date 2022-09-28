@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class SpotifyService {
 
   URI:string="https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ/top-tracks?market=us";
-  token:string="Bearer BQAN_YaFf4AwHfbpSOKeaYSctl8JgH_1RncIqlRb6wp9uIHMCprse3ql5p5j_b-dQSSsMdDNd7uvUcnehyhiI80kvhQPIhDstBS0I6Two3k-VBj3DfBiItAKqciIkgdAIfeYyNN0IsRqTbucXwbZgHBXYNrI6LHHrOXpa_LLETeHo33jaHNb2JS7vFza3Dp0Mn0"
+  token:string="Bearer BQATLLG4PVd8iyY7y278klFa7tH-_sKqReY7FERpAB7ZYo1hDOFYqs_1O19x1_KTrnx-NydoMjACzhRu9iYRUj60ELi9IzQYPOUS9oULbpwSksumDGE8dfuOzImaDMqT2WBGRMseCh0o-AKcC1RMN5JGBGUdcMkbgCb7b5mRT5s1dUFGjxUd92Cs2EXjqeCfWOM"
   constructor(public peticion: HttpClient) {
     console.log("arrancando servicio")
 
