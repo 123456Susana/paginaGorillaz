@@ -2,6 +2,7 @@
     font-family: 'Cabin', sans-serif;
     background-color: rgb(197, 43, 138);
     color: white;
+    
 }
 
 hr{
@@ -11,8 +12,9 @@ hr{
 }
 
 .imagen{
-    height: 100px;
+    height: 100vh;
     width: 100px;
+    
 }
 
 .p1{
